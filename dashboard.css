@@ -1,0 +1,75 @@
+.navbar{
+    height: 80px;
+}
+
+.container-fluid .navbar-brand{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 100px;
+}
+
+.container-fluid{
+    display: flex;
+}
+
+.nav {
+    margin-left: 100px; 
+    font-size: 36px;
+}
+
+li{
+    gap: 70px;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+.navbar-nav{
+    margin-left: 450px;
+}
+
+.butn{
+    width: 100px;   
+}
+
+button {
+    padding: 10px ;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: black;
+    border: 1px solid black;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+/*   
+   button:hover {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+      0 0 100px #008cff;
+  } */
+
+  .main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .text{
+      min-height: 300px;
+      width: 100%;
+      max-width: 900px;
+      border: 20px solid gray;
+      padding: 20px 30px ;
+  }
+
